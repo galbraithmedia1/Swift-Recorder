@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Recoding_appApp: App {
+struct AudioRecorderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecordingPermissionView()
         }
     }
 }
